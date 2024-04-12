@@ -10,11 +10,11 @@ import "./App.css";
 function App() {
   return (
     <Router>
+      <Header />
       <Routes>
-        <Header />
         <Route path="/" element={<Dashboard />} />
-        <Footer />
       </Routes>
+      <Footer />
     </Router>
   );
 }
